@@ -1,0 +1,12 @@
+# Ignore local credentials and tokens
+credentials.json
+token.json
+token_*.json
+*.json
+!.gitignore
+
+# Ignore Python cache & virtual environments
+__pycache__/
+*.pyc
+venv/
+.env
