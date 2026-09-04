@@ -177,7 +177,7 @@ with tabs[0]:
                     LOGGED WEAKNESSES: {json.dumps(memory['logged_weaknesses'])}
                     
                     CHAT HISTORY (LAST 7 DAYS):
-                    {json.dumps([{{'role': m['role'], 'content': m['content']}} for m in memory['chat_history'][-10:]])}
+                    {json.dumps([{'role': m['role'], 'content': m['content']} for m in memory['chat_history'][-10:]])}
                     
                     USER PROMPT: {user_input}
                     
